@@ -108,13 +108,30 @@ li {
     opacity: 0.6;
 }
 
-@media(min-width:960px){
+@media(min-width:320px){
     .why, .sub{
         width: 50%;
     }
 }
 
-@media(max-width:960px){
+@media(max-width:320px){
+    .container {
+        padding-left: 32px;
+        padding-bottom: 35px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    li {
+        font-size: 15px;
+    }
     .card {
         width: 90%;
         margin-top: 40px;
@@ -130,3 +147,5 @@ li {
         width: 100%;
     }
 }
+
+
