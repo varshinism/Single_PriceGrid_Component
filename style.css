@@ -108,13 +108,13 @@ li {
     opacity: 0.6;
 }
 
-@media(min-width:768px){
+@media(min-width:960px){
     .why, .sub{
         width: 50%;
     }
 }
 
-@media(max-width:768px){
+@media(max-width:960px){
     .card {
         width: 90%;
         margin-top: 40px;
